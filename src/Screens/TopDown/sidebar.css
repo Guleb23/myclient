@@ -1,0 +1,24 @@
+.sidebar{
+    width: 450px;
+    height: 100%;
+    background-color: #226f54 ;
+    border-radius:  47px 0 0 47px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    flex: 0 0 20%;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 24px;
+    margin: 50px 0;
+    font-weight: 600;
+    color: white;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+

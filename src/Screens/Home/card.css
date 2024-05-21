@@ -1,0 +1,29 @@
+.home{
+    padding-top: 80px;
+}
+
+.card-container{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-auto-rows: 350px;
+    
+}
+.a{
+background-image: url('https://img.freepik.com/free-photo/english-books-stacks-table-working-space_23-2149429580.jpg?w=1380&t=st=1713736116~exp=1713736716~hmac=d2f4df400e3645beffff353278d75fa1a3e806b2e08ed547a60fda73fa147692');
+ grid-column: span 2;
+ background-size: cover;
+}
+.b{
+    background-image: url('https://img.freepik.com/free-photo/english-book-with-glasses-table_23-2149429624.jpg?size=626&ext=jpg&ga=GA1.1.1268281711.1704385457&semt=ais');
+    grid-row: 2;
+    grid-column: span 2;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.c{
+    background-image: url('https://img.freepik.com/free-photo/english-books-resting-table-working-space_23-2149429583.jpg?size=626&ext=jpg&ga=GA1.1.1268281711.1704385457&semt=ais');
+    grid-row: span 2;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,19 @@
+.btn-body-vid{
+    background-color: #226f54;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    width: 50px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
